@@ -142,7 +142,7 @@
     display: grid;
     grid-template-columns: auto;
     justify-items: center;
-    row-gap: 40px;
+    gap: 40px;
 }
 
 .icon {
