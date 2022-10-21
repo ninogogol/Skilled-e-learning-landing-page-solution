@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Continued development
 
-I want to build mor projects to emprove my coding skills.
+I want to build more projects to emprove my coding skills.
 
 
 ## Author
