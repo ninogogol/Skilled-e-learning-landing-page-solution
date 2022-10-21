@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Design System */
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+.font {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.heading-xl {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    color: #13183F;
+}
+
+.heading-l {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.heading-m {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin: 16px 29px 24px 0;
+}
+
+.pink-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    cursor: pointer;
+}
+
+.pink-text:hover {
+    color: #FFA7C3;
+}
+
+/* Body background */
+.main-bg {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);;
+}
+
+/* Footer background */
+.footer-bg {
+    background-color: #13183F;
+}
+
+/* Buttons */
+.button-shift {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-1 {
+    background-color: #13183F;
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    line-height: 28px;
+}
+
+.button-1:hover {
+    background-color: #666CA3;
+    cursor: pointer;
+}
+
+.button-2 {
+    width: 167px;
+    height: 56px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    line-height: 26px;
+}
+
+.button-2:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+.button-3 {
+    width: 140px;
+    height: 48px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    line-height: 28px;
+}
+
+.button-3:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+/* Grid Items */
+
+.grid-item {
+    width: 343px;
+    height: 259px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    padding: 56px 0 32px 28px;
+    position: relative;
+}
+/* Pink Grid-Item */
+.pink-grid-item {
+    width: 343px;
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    padding: 24px 28px 32px;
+}
+
+/* other styles */
+
+.img-hero-tablet {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    row-gap: 40px;
+}
+
+.icon {
+    position: absolute;
+    top: calc(-56px / 2);
+    left: 28px;
+}
+
+.img-hero-mobile {
+    width: 327px;
+    display: block;
+    margin: 46px auto;
+}
+
+.heading-section {
+    margin-left: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 16px 38px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 16px;
+    margin-top: 80px;
+}
+
+
+/* Styles for Tablet */
